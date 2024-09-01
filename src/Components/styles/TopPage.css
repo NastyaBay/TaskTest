@@ -1,0 +1,51 @@
+.top-page {
+    position: relative;
+    height: 30rem;
+    margin-bottom: 7.5rem;
+}
+
+.img-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.h1-top-page {
+    font-size: 2.25rem;
+    margin-bottom: 0;
+}
+
+.h2-top-page {
+    font-size: 1.125rem;
+    width: 33.75rem;
+    margin-top: 1.125rem;
+}
+
+.block-heading {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+@media (max-width: 768px) {
+    .block-heading{
+    left: 37%;
+}
+  }
+
+.btn-top-page {
+    height: 3.25rem;
+    background-color: #3AB25B;
+    color: #FFFFFF;
+    border: 0;
+    padding: 1rem 1.625rem;
+    border-radius: 8px;
+    margin-top: 2.5rem;
+    font-family: 'Lato';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1rem;
+}

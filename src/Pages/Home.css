@@ -1,0 +1,157 @@
+.middle-page{
+    margin: 7.5rem 5%;
+}
+
+
+.img-back{
+    width: 100vw;
+}
+
+.mainPage{
+    display: flex;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.25rem;
+    margin-top: 2.5rem;
+}
+.left-main-page{
+    flex: 6;
+}
+.main-page-down {
+    display: flex;
+    justify-content: center;
+    margin-top: 3.75rem;
+}
+.btn-main-page{
+    border: 0;
+    border-radius: 8px;
+    background-color: #3AB25B;
+    color: #FFFFFF;
+    padding: 1rem 1.625rem;
+    font-family: 'Lato';
+  font-weight: 600;
+  font-style: normal;
+}
+.main-page-top{
+    display: flex;
+    justify-content: space-between
+}
+
+.advertisement{
+    flex: 1;
+    margin-left: 60px;
+}
+
+.imgAdvertisment{
+    height: 22.5rem;
+    width: 22.5rem;
+}
+@media (max-width: 768px) {
+    .mainPage {
+      flex-direction: column-reverse;
+    }
+  }
+
+/*рейтинг*/
+.rating{
+    
+    max-height: 27.75rem;
+    background-color: #F3F4F8;
+    border-radius: 8px;
+    padding: 1.625rem 1.625rem 0.875rem 1.625rem;
+    max-width: 22.5rem;
+    margin-bottom: 1.875rem;
+}
+.name-rating{
+    margin: 0;
+    font-size: 1.625rem;
+    font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.salon{
+    display: flex;
+    justify-content: space-between;
+}
+.left-salon{
+    display: flex;
+}
+.star-score-salon{
+    display: flex;
+}
+.score-star-salon{
+    display: flex;
+}
+.img-salon{
+    height: 3.75rem;
+    margin-right: 12px;
+}
+.name-salon{
+    font-size: 1.125rem;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.review-salon{
+    margin: 0;
+    font-size: 0.875rem;
+    color: #828896;
+    font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 4px;
+}
+.score-salon{
+    font-size: 1.25rem;
+    margin: 0;
+    margin-left: 6px;
+    font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.place{
+    font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-bottom: 10px;
+}
+.star-salon{
+    height: 21px;
+    padding-top: 3px;
+}
+.name-review, .star-salon, .score-salon{
+    margin-top: 6px;
+}
+.rating-down-p{
+    font-size: 0.75rem;
+    color: #828896;
+}
+
+.text-1{
+    display: flex;
+}
+
+.text-top{
+    font-size: 2rem;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.text-sity{
+    font-size: 2rem;
+    color: #3AB25B;
+    font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.text-sort{
+    color: #3AB25B;
+    font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
