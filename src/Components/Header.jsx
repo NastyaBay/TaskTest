@@ -1,3 +1,4 @@
+import { Button } from 'bootstrap'
 import './styles/Header.css'
 
 
@@ -18,6 +19,9 @@ const Header = () => {
                         <img src='/Search.svg' className='form-img'></img>
                     </button>
                 </form>
+                <button className='btn-icon-head'>
+                <img src='/iconHead.svg' className='btn-icon-head-img'></img>
+                </button>
             </div>
         </>
     )

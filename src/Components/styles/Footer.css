@@ -12,11 +12,14 @@
     background-color: #F3F4F8;
     justify-content: space-between;
 }
-.nav-menu-footer a, .nav-menu-footer a:hover {
+.nav-menu-footer a, .nav-menu-footer a:hover, .nav-menu-footer-2 a {
     color: #181818;
     font-size: 1rem;
     padding-right: 2.125rem;
     text-decoration: none;
+}
+.nav-menu-footer-2{
+    margin-bottom: 15px;
 }
 .footer-left{
     display: flex;

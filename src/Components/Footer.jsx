@@ -22,6 +22,12 @@ const Footer = () => {
                         </div>
                     </div>
                     <hr className='hr-footer'></hr>
+                    <nav className='nav-menu-footer-2'>
+                        <a href="/" className='lato-simibold'>Отзывы</a>
+                        <a href="/" className='lato-simibold'>Обратная связь</a>
+                        <a href="/" className='lato-simibold'>Правила</a>
+                        <a href="/" className='lato-simibold'>Политика конфиденциальности</a>
+                    </nav>
                     <p className='p-footer'>© 2024 Авто отзыв. Все права защищены.</p>
                 </div>
             </div>
