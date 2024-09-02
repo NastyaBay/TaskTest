@@ -22,7 +22,8 @@ body {
   font-weight: 700;
   font-style: normal;
 }
-.lato-simibold{
+
+.lato-simibold {
   font-family: 'Lato';
   font-weight: 600;
   font-style: normal;
@@ -32,7 +33,8 @@ body {
   * {
     font-size: 8px;
   }
-  .advertisement{
+
+  .advertisement {
     display: flex;
     justify-content: space-around;
   }
@@ -42,7 +44,8 @@ body {
   * {
     font-size: 16px;
   }
-  .advertisement{
+
+  .advertisement {
     display: block;
   }
 }
@@ -51,18 +54,89 @@ body {
   * {
     font-size: 14px;
   }
-  .form-search{
+
+  .form-search {
     width: 22rem;
   }
-  .block-heading{
+
+  .block-heading {
     left: 35%;
   }
-  .img-camp-card{
+
+  .img-camp-card {
     height: 4.28rem;
     width: 4.28rem;
   }
-  .btn-card-details{
+
+  .btn-card-details {
     width: 15rem;
+  }
+
+  .img-back {
+    content: url('../public/imgBack2.png');
+  }
+
+  .imgAdvertisment {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .cards {
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  }
+
+  .cardSalon {
+    width: 20rem;
+  }
+
+  .col-description-2 {
+    width: 12.7rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .card-name-company {
+    width: 12.7rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .footer-main {
+    padding: 2.8rem 1.7rem 1.2rem 1.7rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .img-back {
+    content: url('../public/imgBack.png');
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  }
+
+  .cardSalon {
+    width: 25rem;
+  }
+
+  .col-description-2 {
+    width: 100%;
+  }
+
+  .card-name-company {
+    width: 16.3rem;
+  }
+
+  .imgAdvertisment {
+    height: 22.5rem;
+    width: 22.5rem;
+  }
+
+  .footer-main {
+    padding: 2.5rem 8.125rem 1.125rem 8.125rem;
   }
 }
 
@@ -70,7 +144,12 @@ body {
   * {
     font-size: 16px;
   }
-  .advertisement{
+
+  .advertisement {
     display: block;
+  }
+
+  .img-back {
+    content: url('../public/imgBack.png');
   }
 }
